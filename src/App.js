@@ -8,6 +8,7 @@ import AuthContext from "../src/store/auth-context";
 
 function App() {
 	const authCtx = useContext(AuthContext);
+	console.log(authCtx);
 	return (
 		<Layout>
 			<Switch>
